@@ -1,0 +1,51 @@
+[git_status]
+format = '($ahead_behind$all_status)'
+stashed = '[Stashed\(${count}\) ](green)'
+ahead = '[Ahead\(${count}\) ](red)'
+behind = '[Behind\(${count}\) ](red)'
+untracked = '[Untracked\(${count}\) ](yellow)'
+modified = '[modified\(${count}\) ](yellow)'
+staged = '[Staged\(${count}\) ](green)'
+deleted = '[Deleted\(${count}\) ](red)' 
+renamed = '[Renamed\(${count}\) ](yellow)'
+conflicted = '[Conflicted\(${count}\) ](red)'
+diverged = '[Diverged ](red)'
+
+[bun]
+symbol = ' '
+
+[directory]
+read_only = ' 󰌾'
+
+[docker_context]
+symbol = ' '
+
+[gcloud]
+symbol = '  '
+
+[git_branch]
+symbol = ' '
+
+[git_commit]
+tag_symbol = '  '
+
+[hostname]
+ssh_symbol = ' '
+
+[memory_usage]
+symbol = '󰍛 '
+
+[nodejs]
+symbol = ' '
+
+[os.symbols]
+Macos = ' '
+
+[package]
+symbol = '󰏗 '
+
+[python]
+symbol = ' '
+
+[rust]
+symbol = '󱘗 '

@@ -1,0 +1,22 @@
+[user]
+    signingkey = ~/.ssh/id_ed25519
+    name = eemax
+    email = 60387798+eemax@users.noreply.github.com
+
+[commit]
+    gpgsign = true
+
+[gpg]
+    format = ssh
+
+[pull]
+    rebase = true
+
+[rebase]
+    autoStash = true
+
+[merge]
+    conflictstyle = zdiff3
+
+[commit]
+    verbose = true

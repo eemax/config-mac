@@ -1,1 +1,1 @@
-# config-mac
+# Config for Mac
